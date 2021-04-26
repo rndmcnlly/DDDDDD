@@ -3,5 +3,5 @@ let game = new Phaser.Game({
     width: 80,
     height: 60,
     zoom: 4,
-    scenes: [Playground]
+    scene: [Playground]
 });
