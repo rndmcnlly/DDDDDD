@@ -3,5 +3,11 @@ let game = new Phaser.Game({
     width: 80,
     height: 60,
     zoom: 4,
-    scene: [Playground]
+    scene: [Playground],
+    physics: {
+        default: 'arcade',
+        arcade: {
+            debug: true
+        }
+    }
 });
